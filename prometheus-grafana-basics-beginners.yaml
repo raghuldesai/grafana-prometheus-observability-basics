@@ -204,6 +204,9 @@ and ready to build dashboards.
 Hands-On Demo:
 Provision an Ubuntu-based VM. In my case, I am using an AWS EC2 Ubuntu Instance. SSH to it. 
 Install Docker:https://docs.docker.com/engine/install/ubuntu/
+
+curl https://get.docker.com/ | bash
+
 Provide Docker permissions to the Ubuntu user: usermod -aG docker ubuntu
 Log out and log back in
 Create the script file:
