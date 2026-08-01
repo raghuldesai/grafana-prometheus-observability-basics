@@ -238,11 +238,7 @@ docker run -d \
 
   Generate application metrics:
 
-  while true
-do
-    curl http://EC2-Public-IP:8080 >/dev/null
-    sleep 0.2
-done
+while true; do curl http://EC2-Public-IP:8080 >/dev/null; sleep 0.2; done
 
   Access Prometheus: http://EC2-Public-IP:9090
   Access Grafana: http://EC2-Public-IP:3000
